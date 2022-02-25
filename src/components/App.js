@@ -59,7 +59,7 @@ const App = () => {
         <label>Consent: </label>
         <input id='consent' type='checkbox' onChange={handleCheckboxChange}/><br/>
         
-        <input type="button" onClick={handleSubmit}>Sign Up</input>
+        <input type="button" onClick={handleSubmit} value="Sign Up"/>
         
       </div>
   )
